@@ -78,8 +78,9 @@ a {
 /* ------banner------- */
 .banner {
     background-color: black;
-    margin: 0 auto;
-    width: 80vw;
+    /* margin: 0 auto; */
+    /* width: 100vw; */
+
 
 
 }
@@ -87,13 +88,15 @@ a {
 
 .wrapper {
     background-image: url('../img_compressed/img/banner_owl.jpg');
-    background-position: 60px 50px;
+    background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
     width: 70vw;
     height: 550px;
     color: #CDD9E7;
-    margin: 0 20% 0;
+    margin: 0 auto;
+    /* outline:1px solid tomato; */
+
 
 }
 
@@ -107,7 +110,7 @@ a {
 
 
 .wrapperDown {
-    margin-top: -60px;
+    margin-top: -4vw;
     margin-left: -5px;
     display: block;
     width: 100%;
@@ -197,7 +200,7 @@ a {
 
 }
 
-.section {
+.nature2030 .section {
     width: 60vw;
 
     background-color: #CDD9E7;
@@ -206,11 +209,11 @@ a {
 
 }
 
-.section img {
+.nature2030 .section img {
     width: 20vw;
 }
 
-.aside {
+.nature2030 .aside {
     width: 40vw;
     display: flex;
     flex-direction: column;
@@ -218,7 +221,7 @@ a {
     align-items: center;
 }
 
-.aside h2 {
+.nature2030 .aside h2 {
     font-size: 24px;
     font-weight: 500;
     text-align: center;
@@ -228,21 +231,21 @@ a {
 
 }
 
-.aside p {
+.nature2030 .aside p {
     color: black;
     font-size: 24px;
     text-align: center;
     margin-bottom: 80px;
 }
 
-.more {
+.nature2030 .more {
     line-height: 2;
     background-color: #9BBACE;
     width: 100px;
     border-radius: 25px;
     border: 2px solid #345764;
-   text-align: center;
-   color: #003479;
+    text-align: center;
+    color: #003479;
 }
 
 /* -------Red List------- */
@@ -318,7 +321,7 @@ a {
     margin-top: 10px;
     align-self: start;
     padding-left: 100px;
-    
+
 }
 
 .redListSection span {
@@ -358,6 +361,7 @@ a {
 .redlistTotal h3 {
     font-size: 24px;
 }
+
 .redlistTotal h6 {
     margin-bottom: 30px;
 }
@@ -372,10 +376,11 @@ section img {
 }
 
 /* -------about us--------- */
-.world1{
+.world1 {
     position: relative;
 }
-.wolf{
+
+.wolf {
     position: absolute;
     top: 30px;
     left: 50px;
@@ -385,20 +390,20 @@ section img {
 
 .aboutUs {
     width: 100%;
-    
+
     background-color: #003479;
-    
+
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     /* outline: 1px solid tomato; */
-    
-    color: #9BBACE;
-    }
- 
 
-.main img {
+    color: #003479;
+}
+
+
+.border_mountain1_up {
     width: 100%;
     display: block;
     margin: -5px 0;
@@ -409,82 +414,106 @@ section img {
     font-size: 36px;
     font-weight: 500;
     margin: 30px auto;
+    font-weight: 500;
+    color: white;
+
 
 }
-.aboutUs span{
+
+.aboutUs>span {
     border: 1px solid #9BBACE;
     width: 80%;
 }
 
-.aboutUs ul {
-    display: flex;
-    width: 70vw;
-    justify-content: space-between;
-}
 
-.aboutUs a {
-    color: #003479;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
 
-}
-
-.aboutUs a img {
-    height: 60px;
+.logoCircle {
+    display: block;
+    width: 35vw;
     /* outline: 1px solid tomato; */
-    margin: 10px;
+    margin: auto;
+}
+
+
+
+.logoDark {
+    width: 20vw;
+    display: block;
+    /* outline: 1px solid tomato; */
+    margin: -5vw auto 0;
 
 }
 
 .aboutUs .section {
-    width: 60vw;
+    width: 80vw;
 
-    background-color: #CDD9E7;
+
     display: flex;
+    
     margin-top: 50px;
 
 }
 
-.aboutUs .section img {
-    width: 20vw;
-}
+
 
 .aboutUs .aside {
     width: 40vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
+   margin: auto;
+    
 }
 
-.aboutUs .aside h2 {
+.aboutUs .aside p {
     font-size: 24px;
     font-weight: 500;
     text-align: center;
     margin-top: 20px;
+    color: white;
+    letter-spacing: 5px;
+    line-height: 2;
 
 
 
 }
 
-.aboutUs .aside p {
-    color: black;
-    font-size: 24px;
+.meet  {
+    
+    font-size: 32px;
     text-align: center;
     margin-bottom: 80px;
 }
+/* ------video------ */
+.video{
+    color: white;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80vw;
 
-.aboutUs .more {
-    line-height: 2;
-    background-color: #9BBACE;
-    width: 100px;
-    border-radius: 25px;
-    border: 2px solid #345764;
-   text-align: center;
-   color: #003479;
+
 }
-
+.video ul{
+    text-align: center;
+    font-size: 28px;
+    
+}
+.videoSit{
+    background-image: url('../img_compressed/img/whale_out_of_sea.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 35vw;
+    height: 50vh;
+}
+.videoMask{
+    background-color: rgba(0, 0, 0, .3);
+    width: 35vw;
+    height: 50vh;
+}
+.video a{
+    
+    font-size: 20px;
+    
+}
 
 
 
@@ -495,7 +524,7 @@ footer {
     color: white;
     font-family: 'Noto sans TC';
     padding: 50px;
-    margin-top: 100px;
+    margin-top: 300px;
 }
 
 .long {
@@ -547,11 +576,18 @@ footer ul li ul li {
 footer h2 {
     margin-bottom: 10px;
 }
-
+.icons{
+    display: flex;
+    flex-direction: row;
+}
+.icons li{
+    margin-right: 10px;
+}
 
 i {
     color: white;
-    outline: 1px solid tomato;
-height: 56px;
+    /* outline: 1px solid tomato; */
+    height: 56px;
     font-size: 28px;
 }
+
