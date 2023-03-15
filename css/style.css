@@ -1,0 +1,557 @@
+@import url("./reset.css");
+
+body {
+    font-family: 'Bitter', 'Times New Roman', 'Yuji Mai', 'Yuji Boku', 'Noto Sans TC', 'Noto Serif TC', serif;
+
+    line-height: 1.6;
+
+}
+
+header {
+    background-color: black;
+    color: #CDD9E7;
+    /* outline: 1px solid tomato; */
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.mainNav li img {
+    margin-left: 5px;
+}
+
+.mainNav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 2.5em;
+    padding: 20px;
+}
+
+.logo h2 {
+    padding-left: 20px;
+}
+
+.logo .bearSit {
+    margin-top: 18px;
+    margin-left: -9px;
+}
+
+.mainNav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40vw;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+.topic {
+    display: flex;
+    justify-content: center;
+
+}
+
+.topic ul {
+    display: flex;
+
+    width: 60vw;
+    margin-right: 20px;
+
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    padding-bottom: 50px;
+}
+
+/* ------banner------- */
+.banner {
+    background-color: black;
+    margin: 0 auto;
+    width: 80vw;
+
+
+}
+
+
+.wrapper {
+    background-image: url('../img_compressed/img/banner_owl.jpg');
+    background-position: 60px 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 70vw;
+    height: 550px;
+    color: #CDD9E7;
+    margin: 0 20% 0;
+
+}
+
+.mask {
+    background: radial-gradient(circle at 55% 80%, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 1) 60%);
+
+    height: 100%;
+
+
+}
+
+
+.wrapperDown {
+    margin-top: -60px;
+    margin-left: -5px;
+    display: block;
+    width: 100%;
+}
+
+.mask h1 {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    padding: 10px;
+
+}
+
+.mask h2 {
+    color: #D78D00;
+    font-size: 64px;
+    font-weight: bold;
+
+}
+
+.mask h2 span {
+    font-size: 48px;
+}
+
+.logoText {
+    display: flex;
+    padding: 20px 40px;
+}
+
+.logoText img {
+    width: 40px;
+    margin-top: 25px;
+    margin-left: -15px;
+}
+
+.mask p {
+    font-size: 15px;
+    letter-spacing: 5px;
+    padding-left: 15px;
+}
+
+.mask span {
+    color: #D78D00;
+    font-size: 20px;
+}
+
+
+/* -------Nature 2030--------- */
+.nature2030 {
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* outline: 1px solid tomato; */
+    margin-top: 150px;
+    color: #003479;
+    margin-bottom: 300px;
+}
+
+.nature2030 h1 {
+    font-size: 36px;
+    font-weight: 500;
+    margin: 30px auto;
+
+}
+
+.nature2030 ul {
+    display: flex;
+    width: 70vw;
+    justify-content: space-between;
+}
+
+.nature2030 a {
+    color: #003479;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.nature2030 a img {
+    height: 60px;
+    /* outline: 1px solid tomato; */
+    margin: 10px;
+
+}
+
+.section {
+    width: 60vw;
+
+    background-color: #CDD9E7;
+    display: flex;
+    margin-top: 50px;
+
+}
+
+.section img {
+    width: 20vw;
+}
+
+.aside {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aside h2 {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20px;
+
+
+
+}
+
+.aside p {
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.more {
+    line-height: 2;
+    background-color: #9BBACE;
+    width: 100px;
+    border-radius: 25px;
+    border: 2px solid #345764;
+   text-align: center;
+   color: #003479;
+}
+
+/* -------Red List------- */
+.redListOut {
+
+    background-image: url('../img_compressed/img/nine_picture_frame.png');
+    background-size: cover;
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.redListName {
+    color: #003479;
+    font-size: 36px;
+    font-weight: 500;
+    width: auto;
+    text-align: center;
+    margin: 0 auto 80px;
+
+}
+
+.maskRedList {
+    height: 600px;
+    background-color: rgba(0, 0, 0, .4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redListContent {
+    background-color: #fff;
+    width: 55vw;
+    height: 60vh;
+    display: flex;
+
+    color: #003479;
+    font-family: 'Noto sans TC';
+}
+
+.redListSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.redListSection h1 {
+    font-family: 'Times New Roman';
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.redListSection h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 30px;
+    align-self: end;
+    padding-right: 30px;
+}
+
+.redListSection h6 {
+    font-family: 'Bitter';
+    font-size: 24 px;
+    margin-top: 10px;
+    align-self: start;
+    padding-left: 100px;
+}
+
+.redListSection p {
+    font-family: 'Noto sans TC';
+    font-size: 24 px;
+    font-weight: 500;
+    margin-top: 10px;
+    align-self: start;
+    padding-left: 100px;
+    
+}
+
+.redListSection span {
+
+    font-size: 40 px;
+
+    /* outline: 1px solid tomato; */
+
+}
+
+
+.redListContent img {
+    width: 20vw;
+    display: block;
+}
+
+.redlistTotal {
+    display: flex;
+    width: 60vw;
+    margin: 100px auto;
+
+    color: #037FB2;
+}
+
+
+.redlistTotal section {
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-left: 50px;
+    width: 30vw;
+}
+
+
+/* color: linear-gradient(90deg, rgba(3, 127, 178, 0.67) 22.51%, #003479 104.7%); */
+
+.redlistTotal h3 {
+    font-size: 24px;
+}
+.redlistTotal h6 {
+    margin-bottom: 30px;
+}
+
+section img {
+    width: 20vw;
+}
+
+.redlistTotal>img {
+
+    width: 30vw;
+}
+
+/* -------about us--------- */
+.world1{
+    position: relative;
+}
+.wolf{
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    width: 10%;
+    display: block;
+}
+
+.aboutUs {
+    width: 100%;
+    
+    background-color: #003479;
+    
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* outline: 1px solid tomato; */
+    
+    color: #9BBACE;
+    }
+ 
+
+.main img {
+    width: 100%;
+    display: block;
+    margin: -5px 0;
+}
+
+
+.aboutUs h1 {
+    font-size: 36px;
+    font-weight: 500;
+    margin: 30px auto;
+
+}
+.aboutUs span{
+    border: 1px solid #9BBACE;
+    width: 80%;
+}
+
+.aboutUs ul {
+    display: flex;
+    width: 70vw;
+    justify-content: space-between;
+}
+
+.aboutUs a {
+    color: #003479;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.aboutUs a img {
+    height: 60px;
+    /* outline: 1px solid tomato; */
+    margin: 10px;
+
+}
+
+.aboutUs .section {
+    width: 60vw;
+
+    background-color: #CDD9E7;
+    display: flex;
+    margin-top: 50px;
+
+}
+
+.aboutUs .section img {
+    width: 20vw;
+}
+
+.aboutUs .aside {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.aboutUs .aside h2 {
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20px;
+
+
+
+}
+
+.aboutUs .aside p {
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.aboutUs .more {
+    line-height: 2;
+    background-color: #9BBACE;
+    width: 100px;
+    border-radius: 25px;
+    border: 2px solid #345764;
+   text-align: center;
+   color: #003479;
+}
+
+
+
+
+
+/* ---------footer------- */
+footer {
+    background-color: #000;
+    color: white;
+    font-family: 'Noto sans TC';
+    padding: 50px;
+    margin-top: 100px;
+}
+
+.long {
+    margin: 0 auto;
+    padding-top: 30px;
+    border-bottom: 1px solid white;
+    width: 80vw;
+    height: 2px;
+    display: block;
+    margin-bottom: 40px;
+}
+
+footer>ul {
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    margin-left: 16vw;
+
+}
+
+footer>ul>li {
+    flex-grow: 1;
+    /* outline: 1px solid tomato; */
+
+
+}
+
+footer ul li ul {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+footer ul li ul li {
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+
+.short {
+    margin: 0 auto 20px;
+    padding-top: 60px;
+    border-bottom: 1px solid white;
+    /* width: 15vw; */
+    height: 2px;
+    display: block;
+}
+
+footer h2 {
+    margin-bottom: 10px;
+}
+
+
+i {
+    color: white;
+    outline: 1px solid tomato;
+height: 56px;
+    font-size: 28px;
+}
