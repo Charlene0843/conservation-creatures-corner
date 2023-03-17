@@ -46,7 +46,7 @@ a {
     padding-left: 20px;
 }
 
-.logo .bearSit {
+.logo .bearSit1 {
     margin-top: 18px;
     margin-left: -9px;
 }
@@ -610,11 +610,172 @@ left: 50vw;
 
 /* ------aside optiom---- */
 
-.bearFoot img {
+/* ------aside optiom---- */
+.bearFoot{
+    min-width: 250px;
+min-height: 200px;
+/* outline:1px solid tomato; */
+/* background-color: red; */
+position: fixed;
+bottom:20px;
+right:0px;
+}
+
+
+.bearFoot img{
     position: fixed;
     right: 1vw;
     bottom: 2vw;
     width: 60px;
+    display: block;
+}
+.bearPaw{
+    font-size: 10px;
+    color: #003479;
+    font-size: 20px;
+    display: none;
+    /* outline: 1px solid red; */
+}
+
+.bearPaw1 {
+    background-image: url('../img_compressed/svg/bearpaw/bear_paw_1.svg');
+    background-repeat: no-repeat;
+    background-size: cotain;
+    /* outline: 1px solid tomato; */
+    position: fixed;
+    right: 170px;
+    bottom: 110px;
+    height: 90px;
+    width: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bearPaw1 .simple{
+    position: absolute;
+    bottom: 14px;
+    left: 16px;
+}
+.bearPaw2 {
+    background-image: url('../img_compressed/svg/bearpaw/bear_paw_2.svg');
+    background-repeat: no-repeat;
+    background-size: cotain;
+    /* outline: 1px solid tomato; */
+    position: fixed;
+    right: 125px;
+    bottom: 140px;
+    height: 65px;
+    width: 33px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.bearPaw2 .simple{
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+}
+.bearPaw3 {
+    background-image: url('../img_compressed/svg/bearpaw/bear_paw_3.svg');
+    background-repeat: no-repeat;
+    background-size: cotain;
+    /* outline: 1px solid tomato; */
+    position: fixed;
+    right: 78px;
+    bottom: 150px;
+    height: 71px;
+    width: 33px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.bearPaw3 .simple{
+    position: absolute;
+    bottom: 7px;
+    left: 12px;
+}
+.bearPaw4 {
+    background-image: url('../img_compressed/svg/bearpaw/bear_paw_4.svg');
+    background-repeat: no-repeat;
+    background-size: cotain;
+    /* outline: 1px solid tomato; */
+    position: fixed;
+    right: 35px;
+    bottom:138px;
+    height: 76px;
+    width: 33px;
+
+    
+}
+
+.bearPaw4 .simple{
+    position: absolute;
+    bottom: 10px;
+    left: 9px;
+}
+.bearPaw5 {
+    background-image: url('../img_compressed/svg/bearpaw/bear_paw_5.svg');
+    background-repeat: no-repeat;
+    background-size: cotain;
+    /* outline: 1px solid tomato; */
+    position: fixed;
+    right: 1px;
+    bottom: 114px;
+    height: 60px;
+    width: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bearPaw5 .simple{
+    position: absolute;
+    bottom: 14px;
+    left: 16px;
+}
+
+
+.paw{
+    background-image: url('../img_compressed/svg/bearpaw/bear_paw.svg');
+    background-repeat: no-repeat;
+    background-size: cotain;
+    /* outline: 1px solid tomato; */
+    position: fixed;
+    right: 1vw;
+    bottom: 1vw;
+    width: 170px;
+    height: 120px;
+
+
+}
+
+
+
+.bearFoot:hover .bearPaw{
+    display: block;
+}
+.show{
+    color:white;
+    /* outline:1px solid tomato; */
+    position: fixed;
+    right: 60px;
+    bottom: 50px;
+    display: none;
+    text-align: center;
+    width: 80px;
+    
+    
+       
+}
+.bearPaw p:hover~.show{
+    display: block;
 }
 
 /* ---------footer------- */
