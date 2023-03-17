@@ -38,6 +38,10 @@ a {
     padding: 20px;
 }
 
+.logoBear {
+    width: 70px;
+}
+
 .logo h2 {
     padding-left: 20px;
 }
@@ -68,7 +72,7 @@ a {
     flex-direction: column;
     align-items: center;
     /* outline: 1px solid tomato; */
-    margin-top: 150px;
+    margin-top: 100px;
     color: #003479;
     margin-bottom: 300px;
 }
@@ -76,7 +80,14 @@ a {
 .nature2030 h1 {
     font-size: 64px;
     font-weight: 700;
-    margin: 30px auto;
+    margin: 30px auto 0;
+
+}
+
+.nature2030 h2 {
+    color: black;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
 
 }
 
@@ -102,171 +113,153 @@ a {
 }
 
 .nature2030 .section {
-    width: 60vw;
-
+    width: 70vw;
+    height: 75vh;
     background-color: #CDD9E7;
     display: flex;
     margin-top: 50px;
 
 }
 
-.nature2030 .section img {
-    width: 20vw;
+.nature2030 .section li {
+
+    height: 75vh;
 }
+
+.img1 {
+    background-image: url('../img_compressed/img/natureLand.jpg');
+    background-size: cover;
+    background-position: center 60%;
+    width: 25vw;
+    height: 37.5vh;
+}
+
+.img2 {
+    background-image: url('../img_compressed/img/natureWater.jpg');
+    background-size: cover;
+    background-position: center center;
+    width: 25vw;
+    height: 37.5vh;
+}
+
+.img3 {
+    background-image: url('../img_compressed/img/natureOcean.jpg');
+    background-size: cover;
+    background-position: center center;
+
+    max-width: 25vw;
+    height: 37.5vh;
+
+}
+
+.img4 {
+    background-image: url('../img_compressed/img/natureClimate.jpg');
+    background-size: cover;
+    background-position: center center;
+    width: 25vw;
+    height: 37.5vh;
+}
+
+.nature2030 .section li {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.nature2030 .section li .imgU:hover {
+    width: auto;
+    height: 75vh;
+
+    transition: .5s;
+}
+
+.nature2030 .section li .imgU:hover~.imgD {
+
+    height: 0;
+    transition: .5s;
+}
+
+.nature2030 .section li .imgD:hover~.imgU {
+
+    width: 0;
+    height: 0;
+    transition: .5s;
+}
+
+.nature2030 .section li .imgD:hover {
+    /* width: auto; */
+    height: 100%;
+    /* height: 1200vh; */
+    transition: .5s;
+}
+
+
 
 .people {
     background-image: url('../img_compressed/img/nature2030People.png');
     width: 20vw;
     height: 100%;
+    display: flex;
+    align-items: center;
+
+
 }
 
-
-
-
-/* -------Red List------- */
-.redListOut {
-
-    background-image: url('../img_compressed/img/nine_picture_frame.png');
-    background-size: cover;
-    width: 80vw;
-    margin: 0 auto;
+.frame {
+    width: 90%;
+    height: 93%;
+    margin: auto;
+    border: 1px solid white;
 }
 
-.redListName {
-    color: #003479;
-    font-size: 36px;
-    font-weight: 500;
-    width: auto;
+.nature2030 p {
+    margin-top: 150px;
     text-align: center;
-    margin: 0 auto 80px;
-
+    line-height: 2;
 }
 
-.maskRedList {
-    height: 600px;
-    background-color: rgba(0, 0, 0, .4);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.redListContent {
-    background-color: #fff;
-    width: 55vw;
-    height: 60vh;
-    display: flex;
 
+
+/* -------main------- */
+.main h1 {
+    text-align: center;
+    font-size: 40px;
+    margin: 100px 0;
     color: #003479;
-    font-family: 'Noto sans TC';
-}
-
-.redListSection {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.redListSection h1 {
-    font-family: 'Times New Roman';
-    font-size: 32px;
-    font-weight: bold;
-    margin-top: 30px;
-}
-
-.redListSection h2 {
-    font-size: 24px;
-    font-weight: bold;
-    margin-top: 30px;
-    align-self: end;
-    padding-right: 30px;
-}
-
-.redListSection h6 {
-    font-family: 'Bitter';
-    font-size: 24 px;
-    margin-top: 10px;
-    align-self: start;
-    padding-left: 100px;
-}
-
-.redListSection p {
-    font-family: 'Noto sans TC';
-    font-size: 24 px;
     font-weight: 500;
-    margin-top: 10px;
-    align-self: start;
-    padding-left: 100px;
 
 }
 
-.redListSection span {
-
-    font-size: 40 px;
-
-    /* outline: 1px solid tomato; */
-
-}
-
-
-.redListContent img {
-    width: 20vw;
-    display: block;
-}
-
-.redlistTotal {
-    display: flex;
-    width: 60vw;
-    margin: 100px auto;
-
-    color: #037FB2;
-}
-
-
-.redlistTotal section {
-    display: flex;
-    flex-direction: column;
-    padding-top: 100px;
-    padding-left: 50px;
-    width: 30vw;
-}
-
-
-/* color: linear-gradient(90deg, rgba(3, 127, 178, 0.67) 22.51%, #003479 104.7%); */
-
-.redlistTotal h3 {
-    font-size: 24px;
-}
-
-.redlistTotal h6 {
-    margin-bottom: 30px;
-}
-
-section img {
-    width: 20vw;
-}
-
-.redlistTotal>img {
-
-    width: 30vw;
-}
-
-/* -------about us--------- */
 .world1 {
     position: relative;
 }
 
-.wolf {
+.whale {
     position: absolute;
-    top: 30px;
-    left: 50px;
-    width: 10%;
-    display: block;
+    left: 60vw;
+    top: -5vh;
+}
+
+.whale img {
+    width: 15vw;
+}
+
+.wave {
+    position: absolute;
+
+    left: 18vw;
+    top: -14vh;
+}
+
+.wave img {
+    width: 15vw;
 }
 
 .aboutUs {
     width: 100%;
 
-    background-color: #003479;
+    background-color: #CDD9E7;
 
     margin: 0 auto;
     display: flex;
@@ -286,11 +279,13 @@ section img {
 
 
 .aboutUs h1 {
-    font-size: 36px;
+    font-size: 28px;
     font-weight: 500;
-    margin: 30px auto;
+    margin: 50px auto;
     font-weight: 500;
-    color: white;
+    color: #003479;
+    width: 60vw;
+
 
 
 }
@@ -302,96 +297,325 @@ section img {
 
 
 
-.logoCircle {
-    display: block;
-    width: 35vw;
-    /* outline: 1px solid tomato; */
-    margin: auto;
-}
 
 
 
-.logoDark {
-    width: 20vw;
-    display: block;
-    /* outline: 1px solid tomato; */
-    margin: -5vw auto 0;
-
-}
 
 .aboutUs .section {
     width: 80vw;
 
 
     display: flex;
-    
+    justify-content: space-between;
+
     margin-top: 50px;
 
 }
 
-
-
-.aboutUs .aside {
-    width: 40vw;
-   margin: auto;
-    
+.mainOcean .section p {
+    margin-top: 20px;
 }
 
-.aboutUs .aside p {
+.section p {
+    width: 40vw;
     font-size: 24px;
     font-weight: 500;
     text-align: center;
-    margin-top: 20px;
-    color: white;
+    /* margin-top: 20px; */
+    text-align: justify;
     letter-spacing: 5px;
     line-height: 2;
 
+    color: #475B7F;
+
 
 
 }
 
-.meet  {
-    
-    font-size: 32px;
+.intro {
+    font-size: 28px;
     text-align: center;
     margin-bottom: 80px;
+
+    color: #475B7F;
 }
-/* ------video------ */
-.video{
-    color: white;
-    margin-top: 200px;
+
+.asideImg {
+    background-image: url(../img_compressed/img/whale_out_of_sea.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 35vw;
+    /* border-radius: 20px; */
+
+}
+
+.aboutUs h2 {
+    margin-top: 70px;
+    font-size: 36px;
+}
+
+.ambition {
+    margin: 50px 0;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    width: 80vw;
+    width: 60vw;
+    line-height: 2;
+}
 
-
-}
-.video ul{
-    text-align: center;
-    font-size: 28px;
-    
-}
-.videoSit{
-    background-image: url('../img_compressed/img/whale_out_of_sea.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    width: 35vw;
-    height: 50vh;
-}
-.videoMask{
-    background-color: rgba(0, 0, 0, .3);
-    width: 35vw;
-    height: 50vh;
-}
-.video a{
-    
+.ambition p {
     font-size: 20px;
-    
+    margin-bottom: 20px;
+}
+
+.ambition li {
+    display: flex;
+    line-height: 2.5;
+    font-size: 18px;
+
+}
+
+.bearFootSmall {
+    align-self: self-end;
+    margin-right: 10px;
+}
+
+
+/* -----climate----- */
+.mainClimate .aboutUs {
+    background-color: #9BBACE;
+   
+}
+.mainClimate .aboutUs h1{
+    margin: 0;
+}
+
+.eagle {
+    position: absolute;
+    left: 30vw;
+    top: -15vh;
+}
+
+.eagle img {
+    width: 5vw;
+}
+
+.moutain1 {
+    position: absolute;
+
+    right: 18vw;
+    top: -20vh;
+}
+
+.moutain1 img {
+    width: 15vw;
+}
+
+.mainClimate .aboutUs span {
+    color: #003479;
+    border: 1px solid #9BBACE;
+    width: 80%;
 }
 
 
 
+.mainClimate .section p {
+    color: #003479;
+
+}
+
+
+.mainClimate .asideImg {
+    background-image: url('../img_compressed/img/polarbear.jpg');
+}
+
+/* -----people----- */
+.mainPeople >h1{
+    margin-bottom: 30vh;
+}
+.mainPeople .aboutUs {
+    background-color: #849EA5;
+    padding-top: 40px;
+    color:black;
+    
+   
+}
+.mainPeople h1 {
+    
+    color:black;
+    
+   
+}
+
+.squirrel {
+    position: absolute;
+    left: 60vw;
+    top: -15vh;
+}
+
+.squirrel img {
+    width: 12vw;
+}
+
+.people1 {
+    position: absolute;
+
+    right: 43vw;
+    top: -24vh;
+}
+
+.people1 img {
+    width: 13vw;
+}
+
+.mainPeople .aboutUs span {
+    color: black;
+    /* border: 1px solid #9BBACE; */
+    width: 80%;
+}
+
+
+
+.mainPeople .section p {
+    color: black;
+
+}
+
+
+.mainPeople .asideImg {
+    background-image: url('../img_compressed/img/nature2030People.png');
+}
+
+
+/* -----land----- */
+.mainLand .aboutUs {
+    background-color: #345764;
+   
+}
+.mainLand .aboutUs h1 {
+    color: #849EA5;
+    
+   margin: 0;
+}
+.mainLand .aboutUs h2 {
+    color: #849EA5;
+   
+}
+
+
+.bearSit {
+    position: absolute;
+   right: 20vw;
+    top: 1vh;
+}
+
+.bearSit img {
+    width: 10vw;
+}
+
+.land1 {
+    position: absolute;
+
+    right: 57vw;
+   
+}
+
+.land1 img {
+    width: 15vw;
+}
+
+.mainLand .aboutUs span {
+    color: #849EA5;
+    border: 1px solid #9BBACE;
+    width: 80%;
+    margin: 0;
+    border: none;
+}
+
+
+
+.mainLand .section p {
+    color: #849EA5;
+
+}
+.mainLand .ambition{
+    color: #849EA5;
+}
+
+
+.mainLand .asideImg {
+    background-image: url('../img_compressed/img/natureLand.jpg');
+}
+
+/* -----water----- */
+.mainWater .aboutUs {
+    background-color: #475B7F;
+   
+}
+.mainWater .aboutUs h1 {
+    color: #CDD9E7;
+    
+   margin: 0;
+}
+.mainWater .aboutUs h2 {
+    color: #CDD9E7;
+   
+}
+
+
+.crock {
+    position: absolute;
+   right: 20vw;
+    top: 4vh;
+}
+
+.crock img {
+    width: 10vw;
+}
+
+.river {
+    position: absolute;
+left: 50vw;
+    top: -10vh;
+   
+}
+
+.river img {
+    width: 3vw;
+}
+
+.mainWater .aboutUs span {
+    color: #CDD9E7;
+    border: 1px solid #9BBACE;
+    width: 80%;
+    margin: 0;
+    border: none;
+}
+
+
+
+.mainWater .section p {
+    color: #CDD9E7;
+
+}
+.mainWater .ambition{
+    color: #CDD9E7;
+}
+
+
+.mainWater .asideImg {
+    background-image: url('../img_compressed/img/natureWater.jpg');
+}
+
+/* ------aside optiom---- */
+
+.bearFoot img {
+    position: fixed;
+    right: 1vw;
+    bottom: 2vw;
+    width: 60px;
+}
 
 /* ---------footer------- */
 footer {
@@ -399,7 +623,7 @@ footer {
     color: white;
     font-family: 'Noto sans TC';
     padding: 50px;
-    margin-top: 300px;
+    margin-top: 200px;
 }
 
 .long {
@@ -451,11 +675,13 @@ footer ul li ul li {
 footer h2 {
     margin-bottom: 10px;
 }
-.icons{
+
+.icons {
     display: flex;
     flex-direction: row;
 }
-.icons li{
+
+.icons li {
     margin-right: 10px;
 }
 
@@ -465,4 +691,3 @@ i {
     height: 56px;
     font-size: 28px;
 }
-

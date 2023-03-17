@@ -266,7 +266,7 @@ margin: 0 auto;
     font-weight: 500;
     width: auto;
     text-align: center;
-    margin: 0 auto 80px;
+    margin: 80px auto 80px;
 
 }
 
@@ -553,7 +553,7 @@ footer {
     color: white;
     font-family: 'Noto sans TC';
     padding: 50px;
-    margin-top: 300px;
+    margin-top: 200px;
 }
 
 .long {
