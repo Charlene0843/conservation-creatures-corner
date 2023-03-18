@@ -91,11 +91,12 @@ a {
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
-    width: 70vw;
+    width: 100vw;
     height: 550px;
     color: #CDD9E7;
     margin: 0 auto;
     /* outline:1px solid tomato; */
+    overflow: hidden;
 
 
 }
@@ -105,8 +106,59 @@ a {
 width: 1000px;
 margin: 0 auto;
     height: 100%;
+    animation:light 2.5s  linear ;
 
+}
+.maskIn1{
 
+    animation:light1 3s 3s linear forwards ;
+    opacity: 0;
+}
+.maskIn2{
+
+    animation:apear 4s 3.5s  linear forwards ;
+    opacity: 0;
+}
+
+@keyframes light{
+	100%{
+        transform: scale(1);
+		opacity: 1;
+        
+	}
+	0%{
+        transform: scale(1.5);
+        
+        
+		opacity: 0;
+	}
+}
+
+@keyframes light1{
+	100%{
+        transform: scale(1);
+		opacity: 1;
+        
+	}
+    
+	0%{
+        transform: scale(2);
+        /* transform: translateY(30vw); */
+		opacity: 0;
+	}
+}
+@keyframes apear{
+	100%{
+        
+		opacity: .8;
+	}
+    80%{
+        opacity: 0;
+    }
+	0%{
+        
+		opacity: 0;
+	}
 }
 
 
@@ -519,7 +571,11 @@ section img {
     height: 120vh;
     /* outline: 1px solid tomato; */
     /* border-radius: 50% 50% 50% 50%; */
+
+    
 }
+
+
 .videoMask h1{
     width: 32px;
 color: #fff;
@@ -528,6 +584,8 @@ margin-left: 20vw;
 margin-top: 5vw;
 letter-spacing: 5px;
 display: inline-block;
+
+animation: scale 2s ;
 }
 .videoMask p{
     width: 32px;
@@ -536,8 +594,24 @@ display: inline-block;
 margin-left: 2vw;
 letter-spacing: 5px;
 display: inline-block;
-    }
 
+opacity: 0;
+
+animation: scale 2s 1.6s forwards;
+    }
+@keyframes scale{
+	100%{
+        transform: scale(1);
+		opacity: 1;
+        
+	}
+    
+	0%{
+        transform: scale(2);
+        /* transform: translateY(30vw); */
+		opacity: 0;
+	}
+}
 
 /* ------aside optiom---- */
 .bearFoot{

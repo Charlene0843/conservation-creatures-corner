@@ -774,6 +774,11 @@ right:0px;
     
        
 }
+.simple{
+    color:white;
+    /* outline:1px solid tomato; */
+     
+}
 .bearPaw p:hover~.show{
     display: block;
 }
