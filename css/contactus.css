@@ -97,7 +97,7 @@ transform: translate(0, 0);
 .owlStand{
     position: absolute;
     bottom: 145vh;
-    right: -1vw;
+    right: 0vw;
     overflow: hidden;
 }
 .owlStand img{
@@ -212,6 +212,13 @@ transform: translate(0, 0);
 
 .pretty-select:focus {
     box-shadow: 0 0 5px 2px #467BF4;
+}
+
+.pretty-select option{
+    line-height: 1.6;
+    font-size: 32px;
+    color:#003479;
+    margin-bottom: 10px;
 }
 
 .message {
