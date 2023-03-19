@@ -96,8 +96,8 @@ transform: translate(0, 0);
 }
 .owlStand{
     position: absolute;
-    bottom: 145vh;
-    right: 0vw;
+    bottom: 155vh;
+    right: 3vw;
     overflow: hidden;
 }
 .owlStand img{
