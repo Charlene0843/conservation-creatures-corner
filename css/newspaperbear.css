@@ -9,9 +9,17 @@ body {
 }
 
 .wrapper {
-    background-image: url('../img_compressed/img/bg2_row.png');
+    background-image: url('../img_compressed/img/newspaperBg.jpg');
+    /* background-image: url('../img_compressed/img/newspaper_white.jpg'); */
+    /* background-image: url('../img_compressed/img/newspaper_white1.jpg'); */
+   
 
-    background-size: cover;
+
+/* background-color: #efd8bd; */
+    background-size: contain;
+}
+hr{
+    border: 1px solid #7d7d7d;
 }
 
 header {
@@ -104,7 +112,7 @@ a {
 
 .newspaper h1 {
     font-family: 'Fondamento';
-    font-size: 120px;
+    font-size: 89px;
     /* margin: 0 auto; */
     color: #003479;
     /* outline: 1px solid tomato; */
@@ -489,4 +497,7 @@ i {
     /* outline: 1px solid tomato; */
     height: 56px;
     font-size: 28px;
+}
+p{
+font-weight: 500;
 }
