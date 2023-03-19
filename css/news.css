@@ -1,0 +1,517 @@
+@import url("./reset.css");
+
+body {
+    font-family: 'Bitter', 'Times New Roman', 'Yuji Mai', 'Yuji Boku', 'Noto Sans TC', 'Noto Serif TC', serif;
+
+    line-height: 1.6;
+
+}
+
+header {
+    color: #003479;
+    /* outline: 1px solid tomato; */
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #003479;
+}
+
+.mainNav li img {
+    margin-left: 5px;
+}
+
+.mainNav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 2.5em;
+    padding: 20px;
+}
+
+.logoBear {
+    width: 70px;
+}
+
+.logo h2 {
+    padding-left: 20px;
+}
+
+.logo .bearSit1 {
+    margin-top: 18px;
+    margin-left: -9px;
+}
+
+.mainNav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40vw;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+
+
+
+<!-- -----News----- --->
+.newsTop {
+    width: 80vw;
+    
+    margin: 0 auto;
+
+}
+
+.newsTop h1 {
+    font-family: "Bitter";
+    font-size: 48px;
+    font-weight: 700;
+    margin: 30px auto 40px;
+    color: #003479;
+    text-align: center;
+
+}
+
+.newsTop h2 {
+    font-family: "Bitter", "Yuji Mai";
+    color: #003479;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 24px;
+
+}
+
+.search{
+    box-shadow: 6px 2px 5px rgb(122, 122, 122);
+    width: 40vw;
+    margin: 0 auto;
+    display: flex;
+    
+}
+.search input{
+outline: none;
+border: none;
+caret-color:#003479;
+display: block;
+width: 80%;
+font-size: 20px;
+}
+.magnifier{
+    width: 40px;
+    margin-right: 20px;
+}
+
+/* ------content------- */
+.content ul{
+    display: flex;
+    width: 62vw;
+    /* outline:1px solid blue; */
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 100px;
+
+}
+.content li{
+    box-shadow: 5px 5px 5px lightgray;
+}
+.content .pic{
+    
+    width: 100%;
+    height: 30vw;
+    background-size: cover;
+    background-position: center center;
+
+}
+.bearTw{
+  background-image: url('../img_compressed/img/bearTw.jpg');  
+}
+.polar{
+    background-image: url('../img_compressed/img/polarbear1.jpg');  
+  }
+  .dudu{
+    background-image: url('../img_compressed/img/dudu.jpg');  
+  }
+  .seaturtle{
+    background-image: url('../img_compressed/img/sea_turtle_plastic.jpg');  
+  }
+  .pol{
+    background-image: url('../img_compressed/img/pologolic.jpg');  
+  }
+  .ele{
+    background-image: url('../img_compressed/img/elephant_forest.jpg');  
+  }
+   .content .xl .whale{
+    background-image: url('../img_compressed/img/whale_swim.jpg');  
+    height: 35vw;
+  }
+
+.content .small{
+    width: 20vw;
+    /* outline:1px solid tomato; */
+    margin-bottom: 50px;
+
+
+} 
+.content .big{
+    width: 40vw;
+    /* outline:1px solid tomato; */
+
+    margin-bottom: 50px;
+    
+} 
+.content .xl{
+    width: 62vw;
+    /* outline:1px solid tomato; */
+    height: 35vw;
+    margin-bottom: 50px;
+    
+}
+
+
+
+.content .more {
+    line-height: 2;
+    background-color: #9BBACE;
+    width: 100px;
+    border-radius: 25px;
+    border: 2px solid #345764;
+    text-align: center;
+    color: #003479;
+}
+
+.section{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: start;
+    color: #003479;
+}
+.section h3{
+    font-size: 18px;
+}
+.sec{
+    width: 95%;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* ------aside optiom---- */
+.bearFoot {
+    min-width: 250px;
+    min-height: 200px;
+    /* outline:1px solid tomato; */
+    /* background-color: red; */
+    position: fixed;
+    bottom: 20px;
+    right: 0px;
+}
+
+
+.bearFoot img {
+    position: fixed;
+    right: 1vw;
+    bottom: 2vw;
+    width: 60px;
+    display: block;
+}
+
+.bearPaw {
+    font-size: 10px;
+    color: #003479;
+    font-size: 20px;
+    display: none;
+    /* outline: 1px solid red; */
+}
+
+.bearPaw1 {
+    background-image: url('../img_compressed/svg/bearpaw/bear_paw_1.svg');
+    background-repeat: no-repeat;
+    background-size: cotain;
+    /* outline: 1px solid tomato; */
+    position: fixed;
+    right: 170px;
+    bottom: 110px;
+    height: 90px;
+    width: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bearPaw1 .simple {
+    position: absolute;
+    bottom: 14px;
+    left: 16px;
+}
+
+.bearPaw2 {
+    background-image: url('../img_compressed/svg/bearpaw/bear_paw_2.svg');
+    background-repeat: no-repeat;
+    background-size: cotain;
+    /* outline: 1px solid tomato; */
+    position: fixed;
+    right: 125px;
+    bottom: 140px;
+    height: 65px;
+    width: 33px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bearPaw2 .simple {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+}
+
+.bearPaw3 {
+    background-image: url('../img_compressed/svg/bearpaw/bear_paw_3.svg');
+    background-repeat: no-repeat;
+    background-size: cotain;
+    /* outline: 1px solid tomato; */
+    position: fixed;
+    right: 78px;
+    bottom: 150px;
+    height: 71px;
+    width: 33px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bearPaw3 .simple {
+    position: absolute;
+    bottom: 7px;
+    left: 12px;
+}
+
+.bearPaw4 {
+    background-image: url('../img_compressed/svg/bearpaw/bear_paw_4.svg');
+    background-repeat: no-repeat;
+    background-size: cotain;
+    /* outline: 1px solid tomato; */
+    position: fixed;
+    right: 35px;
+    bottom: 138px;
+    height: 76px;
+    width: 33px;
+
+
+}
+
+.bearPaw4 .simple {
+    position: absolute;
+    bottom: 10px;
+    left: 9px;
+}
+
+.bearPaw5 {
+    background-image: url('../img_compressed/svg/bearpaw/bear_paw_5.svg');
+    background-repeat: no-repeat;
+    background-size: cotain;
+    /* outline: 1px solid tomato; */
+    position: fixed;
+    right: 1px;
+    bottom: 114px;
+    height: 60px;
+    width: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bearPaw5 .simple {
+    position: absolute;
+    bottom: 6px;
+    left: 9px;
+}
+
+
+.paw {
+    background-image: url('../img_compressed/svg/bearpaw/bear_paw.svg');
+    background-repeat: no-repeat;
+    background-size: cotain;
+    /* outline: 1px solid tomato; */
+    position: fixed;
+    right: 1vw;
+    bottom: 1vw;
+    width: 170px;
+    height: 120px;
+
+
+}
+
+
+
+.bearFoot:hover .bearPaw {
+    display: block;
+}
+
+.show {
+    color: white;
+    /* outline:1px solid tomato; */
+    position: fixed;
+    right: 60px;
+    bottom: 50px;
+    display: none;
+    text-align: center;
+    width: 80px;
+
+
+
+}
+
+.simple {
+    color: white;
+    /* outline:1px solid tomato; */
+
+}
+
+.bearPaw p:hover~.show {
+    display: block;
+}
+ /* -----footStyle -----  */
+ .world{
+    position: relative;
+    margin-top: 400px;
+    
+ }
+ .world img{
+    /* outline: 1px solid tomato; */
+ }
+ .giraf{
+    position: absolute;
+    left: 80px;
+    bottom: -25px;
+
+    width: 300px;
+    
+    
+ }
+ .tree{
+    position: absolute;
+    right: 300px;
+    bottom: -74px;
+
+    width: 300px;
+    
+ }
+ .lion{
+    position: absolute;
+    right: 350px;
+    bottom: -1px;
+
+    width: 50px;
+    
+
+ }
+ .elephant{
+    position: absolute;
+    right: 100px;
+    bottom: -32px;
+
+
+    width: 150px;
+    
+
+
+ }
+
+
+
+/* ---------footer------- */
+footer {
+    background-color: #000;
+    color: white;
+    font-family: 'Noto sans TC';
+    padding: 50px;
+    /* margin-top: 200px; */
+}
+
+.long {
+    margin: 0 auto;
+    padding-top: 30px;
+    border-bottom: 1px solid white;
+    width: 80vw;
+    height: 2px;
+    display: block;
+    margin-bottom: 40px;
+}
+
+footer>ul {
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    margin-left: 16vw;
+
+}
+
+footer>ul>li {
+    flex-grow: 1;
+    /* outline: 1px solid tomato; */
+
+
+}
+
+footer ul li ul {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+footer ul li ul li {
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+
+.short {
+    margin: 0 auto 20px;
+    padding-top: 60px;
+    border-bottom: 1px solid white;
+    /* width: 15vw; */
+    height: 2px;
+    display: block;
+}
+
+footer h2 {
+    margin-bottom: 10px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.icons li {
+    margin-right: 10px;
+}
+
+i {
+    color: white;
+    /* outline: 1px solid tomato; */
+    height: 56px;
+    font-size: 28px;
+}

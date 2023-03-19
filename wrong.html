@@ -1,29 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <title>Wrong</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;600;800;900&family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@400;500;700;900&family=Yuji+Boku&family=Yuji+Mai&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    
     <style>
-        div{
+        body {
+            margin: 0;
+            font-family: 'Yuji Mai';
+        }
+
+        header {
+            color: #003479;
+            /* outline: 1px solid tomato; */
+        }
+
+        div {
             width: 80vw;
             margin: 0 auto;
             display: flex;
+
         }
-        h1{
+
+        h1 {
             font-size: 96px;
             font-family: Bitter;
         }
+
+        h2 {
+            font-size: 64px;
+            font-family: "Bitter";
+            margin: 0 300px;
+            line-height: 2;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        a {
+            text-decoration: none;
+            color: #003479;
+        }
+
+        .mainNav li img {
+            margin-left: 5px;
+        }
+
+        .mainNav {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            font-size: 2.5em;
+            padding: 20px;
+        }
+
+        .logoBear {
+            width: 70px;
+        }
+
+        .logo h2 {
+            padding-left: 20px;
+        }
+
+        .logo .bearSit1 {
+            margin-top: 18px;
+            margin-left: -9px;
+        }
+
+        .mainNav ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 40vw;
+            font-size: 16px;
+            margin-top: 30px;
+            margin-right: 20px;
+        }
     </style>
 </head>
+
 <body>
+    <header>
+        <nav class="mainNav">
+            <a class="logo" href="./index.html"><img class="logoBear" src="./img_compressed/svg/logo_bear.svg" alt="">
+                <h2>隅見動物</h2>
+                <img class="bearSit1" src="./img_compressed/svg/bear_sit.svg" alt="">
+            </a>
+            
+        </nav>
+
+    </header>
     <div>
-        <h1 >
-        404
-    </h1>
-<img src="./img_compressed/svg/bear_sit_large.svg" alt=""></div>
-    
-    
+        <h1>
+            404
+        </h1>
+
+        <img src="./img_compressed/svg/bear_sit_large.svg" alt="">
+    </div>
+    <h2>
+        oops!
+        <br>
+        Don't be angry.
+    </h2>
+
 </body>
+
 </html>

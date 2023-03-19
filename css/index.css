@@ -91,7 +91,7 @@ a {
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100vw;
+    width: 90vw;
     height: 550px;
     color: #CDD9E7;
     margin: 0 auto;
@@ -614,30 +614,28 @@ animation: scale 2s 1.6s forwards;
 }
 
 /* ------aside optiom---- */
-.bearFoot{
+.bearFoot {
     min-width: 250px;
-min-height: 200px;
-/* outline:1px solid tomato; */
-/* background-color: red; */
-position: fixed;
-bottom:20px;
-right:0px;
-color: white;
+    min-height: 200px;
+    /* outline:1px solid tomato; */
+    /* background-color: red; */
+    position: fixed;
+    bottom: 20px;
+    right: 0px;
 }
 
 
-
-
-.bearFoot img{
+.bearFoot img {
     position: fixed;
     right: 1vw;
     bottom: 2vw;
     width: 60px;
     display: block;
 }
-.bearPaw{
+
+.bearPaw {
     font-size: 10px;
-    /* color: #003479; */
+    color: #003479;
     font-size: 20px;
     display: none;
     /* outline: 1px solid red; */
@@ -656,13 +654,15 @@ color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
-.bearPaw1 .simple{
+
+.bearPaw1 .simple {
     position: absolute;
     bottom: 14px;
     left: 16px;
 }
+
 .bearPaw2 {
     background-image: url('../img_compressed/svg/bearpaw/bear_paw_2.svg');
     background-repeat: no-repeat;
@@ -677,14 +677,15 @@ color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
-.bearPaw2 .simple{
+.bearPaw2 .simple {
     position: absolute;
     bottom: 5px;
     left: 8px;
 }
+
 .bearPaw3 {
     background-image: url('../img_compressed/svg/bearpaw/bear_paw_3.svg');
     background-repeat: no-repeat;
@@ -699,14 +700,15 @@ color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
 
-.bearPaw3 .simple{
+.bearPaw3 .simple {
     position: absolute;
     bottom: 7px;
     left: 12px;
 }
+
 .bearPaw4 {
     background-image: url('../img_compressed/svg/bearpaw/bear_paw_4.svg');
     background-repeat: no-repeat;
@@ -714,18 +716,19 @@ color: white;
     /* outline: 1px solid tomato; */
     position: fixed;
     right: 35px;
-    bottom:138px;
+    bottom: 138px;
     height: 76px;
     width: 33px;
 
-    
+
 }
 
-.bearPaw4 .simple{
+.bearPaw4 .simple {
     position: absolute;
     bottom: 10px;
     left: 9px;
 }
+
 .bearPaw5 {
     background-image: url('../img_compressed/svg/bearpaw/bear_paw_5.svg');
     background-repeat: no-repeat;
@@ -741,14 +744,15 @@ color: white;
     justify-content: center;
     align-items: center;
 }
-.bearPaw5 .simple{
+
+.bearPaw5 .simple {
     position: absolute;
-    bottom: 14px;
-    left: 16px;
+    bottom: 6px;
+    left: 9px;
 }
 
 
-.paw{
+.paw {
     background-image: url('../img_compressed/svg/bearpaw/bear_paw.svg');
     background-repeat: no-repeat;
     background-size: cotain;
@@ -764,12 +768,12 @@ color: white;
 
 
 
-
-.bearFoot:hover .bearPaw{
+.bearFoot:hover .bearPaw {
     display: block;
 }
-.show{
-    color:white;
+
+.show {
+    color: white;
     /* outline:1px solid tomato; */
     position: fixed;
     right: 60px;
@@ -777,14 +781,20 @@ color: white;
     display: none;
     text-align: center;
     width: 80px;
-    
-    
-       
-}
-.bearPaw p:hover~.show{
-    display: block;
+
+
+
 }
 
+.simple {
+    color: white;
+    /* outline:1px solid tomato; */
+
+}
+
+.bearPaw p:hover~.show {
+    display: block;
+}
 
 /* ---------footer------- */
 footer {

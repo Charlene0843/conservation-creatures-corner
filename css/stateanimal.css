@@ -1,0 +1,579 @@
+@import url("./reset.css");
+
+body {
+    font-family: 'Bitter', 'Times New Roman', 'Yuji Mai', 'Yuji Boku', 'Noto Sans TC', 'Noto Serif TC', serif;
+
+    line-height: 1.6;
+
+}
+
+header {
+    color: #003479;
+    /* outline: 1px solid tomato; */
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #003479;
+}
+
+.mainNav li img {
+    margin-left: 5px;
+}
+
+.mainNav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 2.5em;
+    padding: 20px;
+}
+
+.logoBear {
+    width: 70px;
+}
+
+.logo h2 {
+    padding-left: 20px;
+}
+
+.logo .bearSit1 {
+    margin-top: 18px;
+    margin-left: -9px;
+}
+
+.mainNav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40vw;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+
+
+
+/* -------Red List Banner--------- */
+.redList {
+    width: 80vw;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.redList h1 {
+    font-family: "Bitter";
+    font-size: 48px;
+    font-weight: 700;
+    margin: 30px auto 40px;
+    color: #003479;
+
+}
+
+.redList h2 {
+    font-family: "Bitter", "Yuji Mai";
+    color: black;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+
+}
+
+.banner {
+    display: flex;
+    width: 60vw;
+    margin: 5vw auto;
+    justify-content: space-between;
+}
+
+.banner ul {
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+}
+
+.banner li {
+    line-height: 2;
+    background-color: #9BBACE;
+    padding: 0 35px;
+    width: auto;
+    border: 2px solid #345764;
+    text-align: center;
+    color: #003479;
+}
+
+.banner .title {
+    color: #b6d0e2;
+    background-color: #037FB2;
+    font-weight: 500;
+    padding: 0;
+    width: 15vw;
+    align-self: center;
+    font-size: 20px;
+
+}
+
+.banner .left {
+    align-self: start;
+}
+
+.banner .right {
+    align-self: self-end;
+}
+
+.banner .center {
+    align-self: center;
+}
+
+.banner .line {
+    align-self: center;
+    height: 30px;
+    width: 1px;
+    border: 2px solid #345764;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+/* -----Red List ----- -- */
+.redList {
+    font-family: "Times New Roman";
+}
+
+.redTitle1 {
+    font-size: 48px;
+    font-weight: 500;
+    color: #A5CDC9;
+    text-align: center;
+    margin-top: 10vw;
+    margin-bottom: 5vw;
+
+}
+
+.container1 {
+    width: 80vw;
+    margin: 0 auto 10vw;
+}
+
+.section1 {
+    text-align: end;
+    width: 30vw;
+    position: relative;
+    line-height: 2;
+    color: #006666;
+    
+}
+.section1 h2 {
+    font-size: 36px;
+    font-family: "Times New Roman";
+}
+.section1 img{
+width: 20px;
+margin-right: 10px;
+
+
+}
+.section1 h3 {
+    font-size: 20px;
+    
+}
+
+
+
+
+.wrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.section2 {
+    width: 30vw;
+    /* position: absolute;
+       right: 20vw;
+        top: 4vh; */
+    /* outline: 1px solid red; */
+    color: #003479;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.section2 img {
+    width: 25vw;
+}
+
+.section3 {
+    background-image: url('../img_compressed/svg/circle.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* outline: 1px solid blue; */
+    color: #003479;
+    width: 20vw;
+    height: 20vw;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+.section3 h2{
+    font-size: 48px;
+    font-weight: 700;
+    }
+    .section3 h3{
+        font-size: 20px;
+        }
+.section3 p{
+font-size: 10px;
+}
+
+
+
+.frog{
+    width: 70vw;
+}
+
+
+.threatened{
+    color: #003479;
+}
+.bearTW{
+    width: 80vw;
+    color: #003479;
+    text-align: center;
+}
+.bear3{
+    background-image: url('../img_compressed/svg/triangleup.svg');
+    padding-left: 100px;
+    padding-top: 70px;
+}
+.bear2 img{
+    width: 30vw;
+}
+.bear2 h4{
+    align-self: start;
+}
+.gorila{
+    width: 70vw;
+}
+.lion2 h4{
+    align-self: start;
+}
+.lion3{
+    background-image: url('../img_compressed/svg/square.svg');
+    padding-left: 70px;
+    padding-top: 10px;
+}
+.lion1{
+    width: 40vw;
+}
+.lion2 img{
+    width: 30vw;
+}
+.lion2 h4{
+    align-self: end;
+}
+.seaCow{
+    width: 50vw;
+}
+
+.data h1{
+    
+        font-size: 36px;
+        font-family: "Times New Roman";
+  
+}
+.data h3 {
+    font-size: 20px;
+}
+.data h2{
+    font-size: 48px;
+    font-weight: 700;
+    }
+    .data h3{
+        font-size: 20px;
+        }
+.data p{
+font-size: 10px;
+}
+.data {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80vw;
+    margin: 0 auto;
+    color: #003479;
+}
+.data li{
+    /* width: 30vw; */
+}
+
+/* ------aside optiom---- */
+.bearFoot {
+    min-width: 250px;
+    min-height: 200px;
+    /* outline:1px solid tomato; */
+    /* background-color: red; */
+    position: fixed;
+    bottom: 20px;
+    right: 0px;
+}
+
+
+.bearFoot img {
+    position: fixed;
+    right: 1vw;
+    bottom: 2vw;
+    width: 60px;
+    display: block;
+}
+
+.bearPaw {
+    font-size: 10px;
+    color: #003479;
+    font-size: 20px;
+    display: none;
+    /* outline: 1px solid red; */
+}
+
+.bearPaw1 {
+    background-image: url('../img_compressed/svg/bearpaw/bear_paw_1.svg');
+    background-repeat: no-repeat;
+    background-size: cotain;
+    /* outline: 1px solid tomato; */
+    position: fixed;
+    right: 170px;
+    bottom: 110px;
+    height: 90px;
+    width: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bearPaw1 .simple {
+    position: absolute;
+    bottom: 14px;
+    left: 16px;
+}
+
+.bearPaw2 {
+    background-image: url('../img_compressed/svg/bearpaw/bear_paw_2.svg');
+    background-repeat: no-repeat;
+    background-size: cotain;
+    /* outline: 1px solid tomato; */
+    position: fixed;
+    right: 125px;
+    bottom: 140px;
+    height: 65px;
+    width: 33px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bearPaw2 .simple {
+    position: absolute;
+    bottom: 5px;
+    left: 8px;
+}
+
+.bearPaw3 {
+    background-image: url('../img_compressed/svg/bearpaw/bear_paw_3.svg');
+    background-repeat: no-repeat;
+    background-size: cotain;
+    /* outline: 1px solid tomato; */
+    position: fixed;
+    right: 78px;
+    bottom: 150px;
+    height: 71px;
+    width: 33px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bearPaw3 .simple {
+    position: absolute;
+    bottom: 7px;
+    left: 12px;
+}
+
+.bearPaw4 {
+    background-image: url('../img_compressed/svg/bearpaw/bear_paw_4.svg');
+    background-repeat: no-repeat;
+    background-size: cotain;
+    /* outline: 1px solid tomato; */
+    position: fixed;
+    right: 35px;
+    bottom: 138px;
+    height: 76px;
+    width: 33px;
+
+
+}
+
+.bearPaw4 .simple {
+    position: absolute;
+    bottom: 10px;
+    left: 9px;
+}
+
+.bearPaw5 {
+    background-image: url('../img_compressed/svg/bearpaw/bear_paw_5.svg');
+    background-repeat: no-repeat;
+    background-size: cotain;
+    /* outline: 1px solid tomato; */
+    position: fixed;
+    right: 1px;
+    bottom: 114px;
+    height: 60px;
+    width: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bearPaw5 .simple {
+    position: absolute;
+    bottom: 6px;
+    left: 9px;
+}
+
+
+.paw {
+    background-image: url('../img_compressed/svg/bearpaw/bear_paw.svg');
+    background-repeat: no-repeat;
+    background-size: cotain;
+    /* outline: 1px solid tomato; */
+    position: fixed;
+    right: 1vw;
+    bottom: 1vw;
+    width: 170px;
+    height: 120px;
+
+
+}
+
+
+
+.bearFoot:hover .bearPaw {
+    display: block;
+}
+
+.show {
+    color: white;
+    /* outline:1px solid tomato; */
+    position: fixed;
+    right: 60px;
+    bottom: 50px;
+    display: none;
+    text-align: center;
+    width: 80px;
+
+
+
+}
+
+.simple {
+    color: white;
+    /* outline:1px solid tomato; */
+
+}
+
+.bearPaw p:hover~.show {
+    display: block;
+}
+
+/* ---------footer------- */
+footer {
+    background-color: #000;
+    color: white;
+    font-family: 'Noto sans TC';
+    padding: 50px;
+    margin-top: 200px;
+}
+
+.long {
+    margin: 0 auto;
+    padding-top: 30px;
+    border-bottom: 1px solid white;
+    width: 80vw;
+    height: 2px;
+    display: block;
+    margin-bottom: 40px;
+}
+
+footer>ul {
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    margin-left: 16vw;
+
+}
+
+footer>ul>li {
+    flex-grow: 1;
+    /* outline: 1px solid tomato; */
+
+
+}
+
+footer ul li ul {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+footer ul li ul li {
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+
+.short {
+    margin: 0 auto 20px;
+    padding-top: 60px;
+    border-bottom: 1px solid white;
+    /* width: 15vw; */
+    height: 2px;
+    display: block;
+}
+
+footer h2 {
+    margin-bottom: 10px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.icons li {
+    margin-right: 10px;
+}
+
+i {
+    color: white;
+    /* outline: 1px solid tomato; */
+    height: 56px;
+    font-size: 28px;
+}
