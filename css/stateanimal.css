@@ -4,6 +4,7 @@ body {
     font-family: 'Bitter', 'Times New Roman', 'Yuji Mai', 'Yuji Boku', 'Noto Sans TC', 'Noto Serif TC', serif;
 
     line-height: 1.6;
+    color:#003479;
 
 }
 
@@ -129,7 +130,7 @@ a {
 /* -----State animal List ---- */
 .area{
     width: 60vw;
-    margin: 0 auto;
+    margin: 0 auto 200px;
     text-align: center;
 }
 .area h1{
@@ -155,6 +156,46 @@ color: #003479;
     color: #9BBACE;
 }
 
+hr{
+    border: 1px dashed #003479;
+    width: 80vw;
+}
+.containerStyle1 h2{
+text-align: center;
+font-size: 32px;
+margin-top: 40px;
+margin-bottom: 40px;
+}
+.containerStyle1 ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.containerStyle1 img{
+    width: 45vw;
+    
+}
+.containerStyle1 h4{
+    margin-top: 30px;
+    
+}
+.cusa ul{
+display: flex;
+flex-wrap: wrap;
+}
+.cusa li{
+    margin-right: 10px;
+    }
+    .sosa img{
+width: 25vw;
+    }
+    /* .sosa .up{
+        align-self: start;
+    }
+    .sosa .down{
+        align-self: end;
+    } */
 
 
 
