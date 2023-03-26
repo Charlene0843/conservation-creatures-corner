@@ -5,6 +5,7 @@ body {
 
     line-height: 1.6;
     color:#003479;
+    
 
 }
 
@@ -146,7 +147,7 @@ color: #003479;
 .area li{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content:end;
     font-family: 'Yuji Mai';
 }
 .area li:hover {
@@ -169,7 +170,7 @@ margin-bottom: 40px;
 .containerStyle1 ul{
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: end;
     margin-bottom: 100px;
 }
 .containerStyle1 img{
