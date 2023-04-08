@@ -201,8 +201,17 @@ a {
     height: 100%;
     display: flex;
     align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 
+}
+.people:hover{
+transform: scale(1.1);
+transition: .5s;
+}
+.peopleContainer{
+    overflow: hidden;
 }
 
 .frame {
@@ -210,6 +219,7 @@ a {
     height: 93%;
     margin: auto;
     border: 1px solid white;
+   
 }
 
 .nature2030 p {
