@@ -338,7 +338,7 @@ a {
     font-size: 36px;
     font-weight: 500;
     margin: 30px auto;
-
+   
 }
 
 .nature2030 ul {
@@ -349,12 +349,12 @@ a {
 }
 
 .nature2030 .btn_modal {
-    width: 15vw;
+    width: 10vw;
     background-color: #fff;
     border: none;
 }
 
-.nature2030 button {
+.nature2030 ul li button {
     font-family: 'Bitter';
     color: #003479;
     display: flex;
@@ -363,7 +363,9 @@ a {
     font-size: 1.5rem;
     cursor: pointer;
 
-
+}
+.nature2030 ul li button img {
+    scale: .8;
 }
 
 .nature2030 button:hover {
@@ -800,8 +802,8 @@ section img {
 }
 
 .aboutUs>span {
-    border: 1px solid #9BBACE;
-    width: 80%;
+    border: 1px dashed #9BBACE;
+    width: 90%;
 }
 
 
@@ -815,12 +817,24 @@ section img {
 
 
 
-.logoDark {
+.logoDark img {
     width: 20vw;
     display: block;
     /* outline: 1px solid tomato; */
     margin: -5vw auto 0;
 
+}
+.logoDark .smile{
+    display: block;
+}
+.logoDark .angry{
+    display: none;
+}
+.logoDark:hover .angry{
+    display: block;
+}
+.logoDark:hover .smile{
+    display: none;
 }
 
 .aboutUs .section {
@@ -842,21 +856,21 @@ section img {
 }
 
 .aboutUs .aside p {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
-    text-align: center;
+    /* text-align: center; */
     margin-top: 20px;
     color: white;
     letter-spacing: 5px;
     line-height: 2;
-
+    margin-left: 20%;
 
 
 }
 
 .meet {
 
-    font-size: 32px;
+    font-size: 28px;
     text-align: center;
     margin-bottom: 80px;
 }
@@ -875,18 +889,29 @@ section img {
 }
 
 .video ul {
-    text-align: center;
-    font-size: 28px;
+    /* text-align: center; */
+    font-size: 20px;
     margin-right: 30px;
+    width: 40%;
+    margin-top: 5%;
 
 }
 
-.videoSit img {
-    /* border-radius: 40% 50% 50% 40%; */
-    border-radius: 40px;
-    width: 35vw;
-    align-self: end;
+.video ul li a:hover{
+    color: #037FB2;
+}
 
+.videoSit .smile{
+    display: block;
+}
+.videoSit .angry{
+    display: none;
+}
+.videoSit:hover .angry{
+    display: block;
+}
+.videoSit:hover .smile{
+    display: none;
 }
 
 .videoMask {
@@ -1210,10 +1235,16 @@ i {
 /* -----news------ */
 .news h1 {
     text-align: center;
+    margin-top: 20%;
+    margin-bottom: 40px;
+}
+.news hr{
+    width: 90%;
+    margin-bottom: 50px;
 }
 
 .news ul {
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
 
     display: flex;
@@ -1223,8 +1254,9 @@ i {
 }
 
 .news ul li {
-    width: 25vw;
-    height: 60vh;
+    width: 21vw;
+    height: 55vh;
+    margin-bottom: 70px;
 
 }
 
@@ -1361,4 +1393,39 @@ i {
 
 
 
+}
+
+   
+   
+.slideshow{
+    margin: auto;
+position: relative;
+overflow: hidden;
+height: 400px;
+width: 900px;
+}
+
+
+.slideshow img{
+   position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none ;
+}
+
+.count{
+    display: flex;
+}
+
+.value {
+    font-size: 5rem;
+    background-image: linear-gradient(90deg, #56A9CB 20%, #0B4585 100%); /* 設定漸層角度及顏色 */
+  -webkit-background-clip: text; /* 背景裁剪成文字的前景色 */
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+}
+.count span{
+    font-weight: 500;
 }

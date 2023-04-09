@@ -11,7 +11,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Bitter:wght@400;500;600;800;900&family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@400;500;700;900&family=Yuji+Boku&family=Yuji+Mai&display=swap"
         rel="stylesheet">
-
+        <link rel="icon" href="./img_compressed/black_bear_happy.ico" type="image/x-icon" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 
     <title>隅見動物</title>
@@ -111,8 +111,11 @@
         <h1>Nature 2030</h1>
         <ul>
             <li>
-                <button type="button" class="btn_modal"><img src="./img_compressed/svg/icon/ocean_icon.svg"
-                        alt=""><span>Ocean</span></button>
+                <button type="button" class="btn_modal">
+                    <img src="./img_compressed/svg/icon/ocean_icon.svg"
+                        alt="">
+                        <span>Ocean</span>
+                    </button>
                     </li>
             <li>
                 <button type="button" class="btn_modal"><img src="./img_compressed/svg/icon/climate_icon.svg"
@@ -268,7 +271,9 @@
                     <div class="logoCircle">
                         <img src="./img_compressed/svg/logo_circle.svg" alt="">
                         <div class="logoDark">
-                            <img src="./img_compressed/svg/logo_bear.svg" alt="">
+                            <img class="smile" src="./img_compressed/svg/black_bear_happy.svg" alt="">
+                            <img 
+                           class="angry" src="./img_compressed/svg/black_bear_angry.svg" alt="">
                         </div>
                     </div>
 
@@ -297,7 +302,9 @@
                     <li> <a href=""># State animals</a> </li>
                 </ul>
                 <div class="videoSit">
-                    <img src="./img_compressed/img/whale_out_of_sea.jpg" alt="">
+                    <img class="smile" src="./img_compressed/svg/snake_smile.svg" alt="">
+                    
+                    <img class="angry" src="./img_compressed/svg/snake_angry.svg" alt="">
 
                 </div>
 
@@ -352,7 +359,7 @@
                             <a href=""><img src="./img_compressed/svg/plus.svg" alt=""></a>
                         </div>
                     </li>
-                    <li class="bg5">
+                    <!-- <li class="bg5">
                         <div class="container">
                             <h3>2023.02.17
                                 <hr>
@@ -361,7 +368,7 @@
                             <h4>首隻出生在歐洲的<br>穿山甲寶寶<br>Little Cone</h4>
                             <a href=""><img src="./img_compressed/svg/plus.svg" alt=""></a>
                         </div>
-                    </li>
+                    </li> -->
                     <li class="bg6">
                         <div class="container">
                             <h3>2021.01.12
@@ -396,7 +403,15 @@
     <div class="redListOut">
 
         <div class="maskRedList">
-            <div class="redListContent">
+            <div class="slideshow">
+        
+                <img src="https://picsum.photos/900/400?random=1" alt="">
+                <img src="https://picsum.photos/900/400?random=2" alt="">
+                <img src="https://picsum.photos/900/400?random=3" alt="">
+                <img src="https://picsum.photos/900/400?random=4" alt="">
+                <img src="https://picsum.photos/900/400?random=5" alt="">
+            </div>
+            <!-- <div class="redListContent">
                 <div class="redListSection">
                     <h1>Extinct in the Wild</h1>
                     <h2>野外滅絕</h2>
@@ -408,13 +423,19 @@
                 </div>
                 <img src="./img_compressed/svg/lion.svg" alt="">
 
-            </div>
+            </div> -->
         </div>
     </div>
 
     <div class="redlistTotal">
         <section>
             <h1 class="numberup"></h1>
+            <div class="count">
+                <div id="value1" class="value">0</div>
+                <span class="value">,</span>
+                <div id="value2" class="value">0</div>
+            </div>
+            <div id="value">0</div>
             <img src="./img_compressed/img/142577.png" alt="">
             <h3>species</h3>
             <h3>物種</h3>
@@ -424,6 +445,15 @@
         <img src="./img_compressed/svg/sea_turtle.svg" alt="">
     </div>
 
+    <div class="slideshow">
+        
+        <img src="https://picsum.photos/900/400?random=1" alt="">
+        <img src="https://picsum.photos/900/400?random=2" alt="">
+        <img src="https://picsum.photos/900/400?random=3" alt="">
+        <img src="https://picsum.photos/900/400?random=4" alt="">
+        <img src="https://picsum.photos/900/400?random=5" alt="">
+    </div>
+   
     <!-- ---------aside option------- -->
 
     <!-- <div class="bearFoot">
@@ -476,7 +506,14 @@
 
 
     </div> -->
-
+    <h2 class="images">0</h2>
+    <input type="text" value="0" id="txt_end"/>
+    -
+    <input type="text" value="500" id="txt_start" />
+    <input type="button" value="setNum" onclick="setNum(500);"/>
+    
+    <div class="counter">1,123,456 downloads</div>
+    
 
     <!-- Top -->
     <div class="fixed">
@@ -535,7 +572,17 @@
         <p>本網站為緯育TibaMe產業新尖兵前端班03期學員專題作品，本平台僅供學習、展示之用。參考資源: IUCN</p>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://assets.codepen.io/16327/gsap-latest-beta.min.js?r=v3.11.5"></script>
+    <script src="https://assets.codepen.io/16327/ScrollTrigger.min.js"></script>
+    <script src="https://assets.codepen.io/16327/ScrollSmoother.min.js"></script>
+    <script src="https://assets.codepen.io/16327/SplitText3.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/counterup.min.js"></script>
+
     <script src="./js/index.js"></script>
+
 </body>
 
 </html>

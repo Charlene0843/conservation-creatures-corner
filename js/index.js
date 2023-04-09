@@ -140,3 +140,69 @@ lightbox_el5.querySelector("article").addEventListener("click", function (e) {
   e.stopPropagation();
 });
 
+
+
+$('.slideshow').each(function(){
+    
+  let slideImgs = $(this).find('img'),
+      slideImgsCount = slideImgs.length,
+      currentIndex = 0;
+  
+  slideImgs.eq(currentIndex).fadeIn();
+  
+  setInterval(showNextSlide, 3000);
+  
+  function showNextSlide(){
+      let nextIndex = (currentIndex + 1) % slideImgsCount;
+      slideImgs.eq(currentIndex).fadeOut();
+      slideImgs.eq(nextIndex).fadeIn();
+      currentIndex = nextIndex;
+  }
+  
+})
+
+
+var countToNumber = function (element, number, suffix, duration) {
+  $({count: parseInt(element.text().split("+")[0].replace(/\,/g, ''))}).animate({count: number}, {
+    duration: duration ? duration : 1000,
+    easing: 'swing', 
+    step: function (now) {
+      element.text((Math.floor(now) + suffix).replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,"));
+    },
+    complete: function () {
+      countingFromZero = false;
+    }
+  });
+}
+countToNumber($('.images'), 5000, '', 2000);
+
+function setNum(){
+  countToNumber($('.images'), $("#txt_start").val(), '', $("#txt_end").val());
+}
+
+
+
+function animateValue(id, start, end, duration) {
+  if (start === end) return  ;
+  var range = end - start;
+  var current = start;
+  var increment = end > start? 1 : -1;
+  var stepTime = Math.abs(Math.floor(duration / range));
+  var obj = document.getElementById(id);
+  var timer = setInterval(function() {
+      current += increment;
+      obj.innerHTML = current;
+      if (current >= end) {
+          clearInterval(timer);
+      }
+  }, stepTime);
+}
+
+// toLocaleString().
+animateValue("value1", 1, 142, 2500);
+animateValue("value2", 0, 577, 0.1);
+
+$('.counter').counterUp({
+  delay: 10,
+  time: 1000
+}); 

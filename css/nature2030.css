@@ -221,13 +221,42 @@ transition: .5s;
     border: 1px solid white;
    
 }
+.protect {
+    position: relative;
+    margin-left: 20%;
+    margin-top: 30%;
+    justify-content: center;
 
+}
 .nature2030 p {
-    margin-top: 150px;
+    
     text-align: center;
     line-height: 2;
 }
+.animalHappy{
+   position: absolute;
+    top: 0;
+    left: -250px; 
+}
+.animalHappy img {
+    width: 30%;
+    
+    /* outline: 1px solid tomato; */
+    
 
+}
+.animalHappy .smile{
+    display: block;
+}
+.animalHappy .angry{
+    display: none;
+}
+.animalHappy:hover .angry{
+    display: block;
+}
+.animalHappy:hover .smile{
+    display: none;
+}
 
 
 
