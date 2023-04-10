@@ -162,23 +162,7 @@ $('.slideshow').each(function(){
 })
 
 
-var countToNumber = function (element, number, suffix, duration) {
-  $({count: parseInt(element.text().split("+")[0].replace(/\,/g, ''))}).animate({count: number}, {
-    duration: duration ? duration : 1000,
-    easing: 'swing', 
-    step: function (now) {
-      element.text((Math.floor(now) + suffix).replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,"));
-    },
-    complete: function () {
-      countingFromZero = false;
-    }
-  });
-}
-countToNumber($('.images'), 5000, '', 2000);
 
-function setNum(){
-  countToNumber($('.images'), $("#txt_start").val(), '', $("#txt_end").val());
-}
 
 
 
@@ -202,7 +186,18 @@ function animateValue(id, start, end, duration) {
 animateValue("value1", 1, 142, 2500);
 animateValue("value2", 0, 577, 0.1);
 
-$('.counter').counterUp({
-  delay: 10,
-  time: 1000
-}); 
+// $('.counter').counterUp({
+//   delay: 10,
+//   time: 1000
+// }); 
+
+let the_cursor = document.getElementById("cursor");
+document.addEventListener("mousemove", function(e){
+  //console.log(e.pageX); // 滑鼠距離頁面最左側的距離
+  //console.log(e.pageY); // 滑鼠距離頁面最上方的距離
+  console.log(window.scrollY);
+  
+  the_cursor.style.left = e.pageX + 10 + "px";
+  the_cursor.style.top = e.pageY - window.scrollY + 10 + "px";
+});
+

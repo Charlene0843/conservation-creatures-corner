@@ -1194,6 +1194,14 @@ footer ul li ul {
 footer ul li ul li {
     font-size: 12px;
     letter-spacing: 2px;
+    line-height: 2;
+}
+
+footer ul li ul li:hover {
+    color: #037FB2;
+}
+footer ul li ul li a:hover {
+    color: #037FB2;
 }
 
 footer p {
@@ -1224,6 +1232,9 @@ footer h2 {
 .icons li {
     margin-right: 10px;
 }
+.icons li a:hover i{
+    color: #037FB2;
+}
 
 i {
     color: white;
@@ -1237,10 +1248,12 @@ i {
     text-align: center;
     margin-top: 20%;
     margin-bottom: 40px;
+    
 }
 .news hr{
     width: 90%;
     margin-bottom: 50px;
+    border: 1px dashed white;
 }
 
 .news ul {
@@ -1395,23 +1408,30 @@ i {
 
 }
 
+/* -----cursor----- */
+#cursor{
+    position: fixed;
+    width: 30px;
+}
+
    
    
 .slideshow{
     margin: auto;
 position: relative;
 overflow: hidden;
-height: 400px;
-width: 900px;
+height: 440px;
+width: 710px;
 }
 
 
 .slideshow img{
    position: absolute;
-    top: 0;
+    top: 10%;
     left: 50%;
     transform: translateX(-50%);
     display: none ;
+    width: 100%;
 }
 
 .count{
