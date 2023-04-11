@@ -1,5 +1,7 @@
 @import url("./reset.css");
-
+html{
+    scroll-behavior: smooth ;
+}
 body {
     font-family: 'Bitter', 'Times New Roman', 'Yuji Mai', 'Yuji Boku', 'Noto Sans TC', 'Noto Serif TC', serif;
 
@@ -103,6 +105,9 @@ a {
     flex-direction: column;
     text-align: center;
 
+}
+.nature2030 ul li:hover a{
+    transform: scale(1.2);
 }
 
 .nature2030 a img {
@@ -228,8 +233,8 @@ transition: .5s;
     justify-content: center;
 
 }
-.nature2030 p {
-    
+.nature2030 .plane {
+    font-size: 20px;
     text-align: center;
     line-height: 2;
 }
@@ -313,7 +318,8 @@ transition: .5s;
 .border_mountain1_up {
     width: 100%;
     display: block;
-    margin: -5px 0;
+    margin-bottom: -2px;
+    
 }
 
 
@@ -324,6 +330,7 @@ transition: .5s;
     font-weight: 500;
     color: #003479;
     width: 60vw;
+    z-index: 8;
 
 
 
@@ -351,6 +358,16 @@ transition: .5s;
 
 }
 
+/* --------main content------- */
+.mainContent p{
+font-family: serif;
+}
+.mainContent .aboutUs h2{
+   font-size: 16px;
+   margin-top: 40px;
+   margin-bottom: 40px;
+   
+}
 .mainOcean .section p {
     margin-top: 20px;
 }
@@ -363,7 +380,7 @@ transition: .5s;
     /* margin-top: 20px; */
     text-align: justify;
     letter-spacing: 5px;
-    line-height: 2;
+    line-height: 45px;
 
     color: #475B7F;
 
@@ -372,7 +389,7 @@ transition: .5s;
 }
 
 .intro {
-    font-size: 28px;
+    font-size: 48px;
     text-align: center;
     margin-bottom: 80px;
 
@@ -388,9 +405,12 @@ transition: .5s;
 
 }
 
-.aboutUs h2 {
-    margin-top: 70px;
+.aboutUs h3 {
+    margin-top: 90px;
     font-size: 36px;
+    
+   
+    
 }
 
 .ambition {
@@ -412,6 +432,8 @@ transition: .5s;
     display: flex;
     line-height: 2.5;
     font-size: 18px;
+    font-family: serif;
+    font-weight: 600;
 
 }
 
@@ -427,7 +449,7 @@ transition: .5s;
    
 }
 .mainClimate .aboutUs h1{
-    margin: 0;
+    margin-top:-80px;
 }
 
 .eagle {
@@ -447,7 +469,7 @@ transition: .5s;
     top: -20vh;
 }
 
-.moutain1 img {
+h3.moutain1 img {
     width: 15vw;
 }
 
@@ -513,7 +535,9 @@ transition: .5s;
     /* border: 1px solid #9BBACE; */
     width: 80%;
 }
-
+.mainPeople .aboutUs h2{
+    margin-top: 0;
+}
 
 
 .mainPeople .section p {
@@ -534,14 +558,18 @@ transition: .5s;
 }
 .mainLand .aboutUs h1 {
     color: #849EA5;
-    
+    z-index: 8;
    margin: 0;
+   margin-top: -150px;
 }
 .mainLand .aboutUs h2 {
     color: #849EA5;
-   
+    z-index: 8;
 }
 
+.mainLand .aboutUs h3{
+    color: #849EA5;
+}
 
 .bearSit {
     position: absolute;
@@ -588,6 +616,7 @@ transition: .5s;
 }
 
 /* -----water----- */
+
 .mainWater .aboutUs {
     background-color: #475B7F;
    
@@ -596,12 +625,15 @@ transition: .5s;
     color: #CDD9E7;
     
    margin: 0;
+   margin-top: 50px;
 }
 .mainWater .aboutUs h2 {
     color: #CDD9E7;
    
 }
-
+.mainWater h3{
+    color: #CDD9E7;
+}
 
 .crock {
     position: absolute;
@@ -824,23 +856,22 @@ right:0px;
 
 
 .world2{
-    margin-top: 200px;
+    margin-top: 94px;
+
 
     
-    width: 10vw;
-    height: 20vh;
+    
+    
 }
 .world2 img{
     /* outline: 1px solid tomato; */
     position: absolute;
     right: 180px;
-    /* bottom: -20px; */
-
-    width: 300px;
+        width: 300px;
  }
 
 /* ---------footer------- */
-footer {
+ footer {
     background-color: #000;
     color: white;
     font-family: 'Noto sans TC';

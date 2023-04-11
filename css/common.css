@@ -1,0 +1,241 @@
+@import url(./reset.css);
+html{
+    scroll-behavior: smooth ;
+}
+body {
+    font-family: 'Bitter', 'Times New Roman', 'Yuji Mai', 'Yuji Boku', 'Noto Sans TC', 'Noto Serif TC', serif;
+    /* background-color: #000; */
+    line-height: 1.6;
+
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    color: #CDD9E7;
+    /* outline: 1px solid tomato; */
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #003479;
+}
+
+.mainNav li img {
+    margin-left: 5px;
+}
+
+.mainNav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 2.5em;
+    padding: 20px;
+}
+
+.logo h2 {
+    padding-left: 20px;
+}
+
+.logo .bearSit {
+    margin-top: 18px;
+    margin-left: -9px;
+}
+
+.mainNav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vw;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+
+.mainNav ul li {
+    font-size: 16px;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+}
+
+.mainNav ul li:hover a {
+    font-size: 18px;
+}
+
+.topic {
+    display: flex;
+    justify-content: center;
+
+}
+
+.topic ul {
+    display: flex;
+
+    width: 60vw;
+    margin-right: 20px;
+
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    padding-bottom: 50px;
+}
+
+/* ---------footer------- */
+footer {
+    background-color: #000;
+    color: white;
+    font-family: 'Noto sans TC';
+    padding: 50px;
+    margin-top: 200px;
+}
+
+.long {
+    margin: 0 auto;
+    padding-top: 30px;
+    border-bottom: 1px solid white;
+    width: 80vw;
+    height: 2px;
+    display: block;
+    margin-bottom: 40px;
+}
+
+footer>ul {
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+    margin-left: 16vw;
+
+}
+
+footer>ul>li {
+    flex-grow: 1;
+    /* outline: 1px solid tomato; */
+
+
+}
+
+footer ul li ul {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+footer ul li ul li {
+    font-size: 12px;
+    letter-spacing: 2px;
+    line-height: 2;
+}
+footer ul li ul li a {
+    color: white;
+}
+footer ul li ul li:hover {
+    color: #037FB2;
+}
+footer ul li ul li a:hover {
+    color: #037FB2;
+}
+
+footer p {
+    font-size: 10px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.short {
+    margin: 0 auto 20px;
+    padding-top: 60px;
+    border-bottom: 1px solid white;
+    /* width: 15vw; */
+    height: 2px;
+    display: block;
+}
+
+footer h2 {
+    margin-bottom: 10px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.icons li {
+    margin-right: 10px;
+}
+.icons li a:hover i{
+    color: #037FB2;
+}
+
+i {
+    color: white;
+    /* outline: 1px solid tomato; */
+    height: 56px;
+    font-size: 28px;
+}
+
+
+/* -----go back to the top------ */
+.fixed {
+    background-image: url('../img_compressed/svg/bear_foot_small.svg');
+    background-size: cover;
+    position: fixed;
+    bottom: 5vh;
+    right: 1vw;
+    color: #9BBACE;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    /* outline:1px solid tomato; */
+
+
+}
+
+.fixed a {
+    display: block;
+    text-decoration: none;
+    /* outline:1px solid tomato; */
+    width: 60px;
+    height: 60px;
+    padding-bottom: 8px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+
+
+
+}
+
+.fixed a h2 {
+
+    font-weight: 500;
+    color: #9BBACE;
+
+
+}
+
+.fixed:hover {
+
+
+    transform: scale(1.5);
+
+
+
+}
+
+/* -----cursor----- */
+#cursor{
+    position: fixed;
+    width: 30px;
+}
