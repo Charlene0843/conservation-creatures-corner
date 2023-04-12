@@ -944,3 +944,9 @@ i {
     height: 56px;
     font-size: 28px;
 }
+
+/* -----cursor----- */
+#cursor{
+    position: fixed;
+    width: 30px;
+}

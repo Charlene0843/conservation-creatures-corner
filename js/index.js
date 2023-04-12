@@ -195,13 +195,29 @@ function animateValue(id, start, end, duration) {
 }
 
 // toLocaleString().
-animateValue("value1", 1, 142, 2500);
-animateValue("value2", 0, 577, 0.1);
+// animateValue("value1", 1, 142, 2500);
+// animateValue("value2", 0, 577, 0.1);
 
 // $('.counter').counterUp({
 //   delay: 10,
 //   time: 1000
 // }); 
+let haha = false;
+
+let numvalue1 = document.getElementById("value1");
+
+window.addEventListener("scroll", function(){
+  
+  
+  if(numvalue1.getBoundingClientRect().top <= 500 && !haha){
+    animateValue("value1", 1, 142, 2500);
+    animateValue("value2", 0, 577, 0.1);
+    haha = true;
+  }
+  
+  
+  
+});
 
 
 // ------cursor----
@@ -215,7 +231,16 @@ document.addEventListener("mousemove", function (e) {
   the_cursor.style.top = e.pageY - window.scrollY + 10 + "px";
 });
 
+
+
+
+
+
 // -----hamburger-----
+let hamburger = document.getElementsByClassName("hamburger");
+hamburger.document.addEventListener("click",function(){
+
+});
 
 
 
