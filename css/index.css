@@ -1497,7 +1497,7 @@ width: 710px;
     }
 
    
-    /* @media screen and (max-width: 414px) {
+    @media screen and (max-width: 414px) {
         #cursor{
             display: none;
         }
@@ -1557,4 +1557,4 @@ width: 710px;
             margin: 5px;
         }
 
-    } */
+    }
